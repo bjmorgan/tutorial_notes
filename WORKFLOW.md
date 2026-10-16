@@ -62,7 +62,7 @@ TutorialNotes/
     index.Rmd
     _bookdown.yml
     _output.yml
-    01-ions-and-solutions.Rmd
+    01-states-of-matter.Rmd
     ...
   Y2/                        # Y2 Physical Chemistry (CH22008)
     index.Rmd
@@ -75,7 +75,7 @@ Each year is an independent bookdown project. Shared resources (`style.css`, `ma
 
 ## Adding a new chapter
 
-1. Create a new `.Rmd` file in the appropriate year directory (e.g. `Y1/04-thermodynamics.Rmd` or `Y2/01-electrochemistry.Rmd`)
+1. Create a new `.Rmd` file in the appropriate year directory (e.g. `Y1/02-thermodynamics-i.Rmd` or `Y2/01-electrochemistry.Rmd`)
 2. Add it to the `rmd_files` list in that year's `_bookdown.yml`
 3. Use `$\ce{...}$` for chemistry notation (rendered by MathJax mhchem)
 4. Use `::: {.keypoint}` fenced divs for callout boxes (no "Key point:" prefix)

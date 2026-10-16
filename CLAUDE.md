@@ -39,9 +39,11 @@ TutorialNotes/
     index.Rmd                 # Front matter and "About" page
     _bookdown.yml             # Chapter ordering and build config
     _output.yml               # Output format config (refs ../style.css etc.)
-    01-ions-and-solutions.Rmd
-    02-spectroscopy.Rmd
-    03-kinetics.Rmd
+    01-states-of-matter.Rmd
+    03-ions-and-solutions.Rmd
+    04-spectroscopy.Rmd
+    05-kinetics.Rmd
+    06-thermodynamics-ii.Rmd
   Y2/
     index.Rmd                 # Front matter and "About" page
     _bookdown.yml             # Chapter ordering and build config
@@ -52,6 +54,7 @@ Shared resources (`style.css`, `mathjax-mhchem.html`, `preamble.tex`) live at th
 
 ## Conventions
 
+- **Chapter numbering**: file numbers follow the academic year's teaching order (Semester 1, then Semester 2). Y1 has two thermodynamics tutorials: Thermodynamics I (S1) and Thermodynamics II (S2). Page URLs come from chapter IDs (e.g. `{#kinetics}`), not file names, so renumbering files is safe.
 - **Chemistry notation**: use `$\ce{...}$` (mhchem via MathJax in HTML, mhchem package in LaTeX)
 - **Callout boxes**: use `::: {.keypoint}` fenced divs. No "Key point:" prefix; the box styling is sufficient.
 - **Tone**: supportive, not prescriptive. Present alternatives rather than saying "don't do X". The goal is to build understanding, not to dictate method.
@@ -65,7 +68,7 @@ Shared resources (`style.css`, `mathjax-mhchem.html`, `preamble.tex`) live at th
 
 ## Adding a new tutorial chapter
 
-1. Create a new `.Rmd` file in the appropriate year directory (e.g. `Y1/04-thermodynamics.Rmd` or `Y2/01-electrochemistry.Rmd`)
+1. Create a new `.Rmd` file in the appropriate year directory (e.g. `Y1/02-thermodynamics-i.Rmd` or `Y2/01-electrochemistry.Rmd`)
 2. Add it to the `rmd_files` list in that year's `_bookdown.yml`
 3. Follow the conventions above
 4. Use the `/tutorial-prep` skill to guide the preparation workflow

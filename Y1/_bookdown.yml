@@ -5,7 +5,8 @@ language:
     chapter_name: ""
 rmd_files:
   - "index.Rmd"
-  - "01-ions-and-solutions.Rmd"
-  - "02-spectroscopy.Rmd"
-  - "03-kinetics.Rmd"
+  - "01-states-of-matter.Rmd"
+  - "03-ions-and-solutions.Rmd"
+  - "04-spectroscopy.Rmd"
+  - "05-kinetics.Rmd"
 output_dir: "_site"

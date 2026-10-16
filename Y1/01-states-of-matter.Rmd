@@ -1,0 +1,224 @@
+# States of Matter {#states-of-matter}
+
+Why is water a liquid at room temperature, when methane, a molecule of similar size, is a gas? Why does a liquid stop cooling while it freezes? Why does adding a second liquid change how much of the first one evaporates? All of these come back to two competing things: how strongly molecules attract each other, and how much kinetic energy they have to pull apart. This chapter looks at each in turn, and then puts them together.
+
+## Intermolecular interactions: which ones, and how strong?
+
+Faced with a molecule and asked about its intermolecular interactions, it is tempting to go straight to a list of forces. It helps to split the problem into two separate questions instead:
+
+1. **Which kinds of interaction are possible?** This is a yes/no question, and it is answered by the shape (and composition) of the molecule.
+2. **How big is each one?** This is a question of size, and it is answered by how large and polarisable the molecule is.
+
+Keeping these apart avoids a lot of confusion. The first question tells you which interactions are present; it tells you nothing about which one matters most.
+
+### Start with the shape
+
+Before thinking about forces at all, draw the molecule, and draw it in three dimensions. The question to ask is: does the molecule have a net (permanent) dipole?
+
+Most bonds between different atoms are polar, because one atom is more electronegative than the other. But a molecule can have polar bonds and still have no net dipole, if its symmetry makes the bond dipoles cancel. $\ce{CO2}$ is linear, so its two $\ce{C=O}$ bond dipoles point in exactly opposite directions and cancel. $\ce{CCl4}$ is tetrahedral, and its four $\ce{C-Cl}$ bond dipoles cancel in the same way. Less symmetric molecules, such as bent $\ce{H2O}$ or pyramidal $\ce{NH3}$, keep a net dipole.
+
+This is where a flat drawing can mislead you. Draw $\ce{CH2Br2}$ on paper with the two bromine atoms opposite each other, and it looks as though the bond dipoles should cancel. But the molecule is not flat; it is tetrahedral. Any two corners of a tetrahedron are equivalent, so there is only one $\ce{CH2Br2}$, and it always has a net dipole. A quick 3D sketch (or a model kit) settles questions like this straight away.
+
+::: {.keypoint}
+Polar bonds do not guarantee a polar molecule. Whether the bond dipoles cancel depends on the three-dimensional shape, so draw the shape first and deduce the properties from it.
+:::
+
+"No net dipole" does not mean the charge is spread perfectly evenly, though. In $\ce{CO2}$ the oxygen ends are still slightly negative and the middle slightly positive; the arrangement simply has no overall direction. A neighbouring molecule that comes very close can feel some of that unevenness. It is a much smaller effect than a genuine dipole, but it is one reason symmetric molecules built from polar bonds can be a little "stickier" than their size alone would suggest.
+
+### Which interactions are possible?
+
+Once you know whether the molecule has a net dipole, the possible interactions follow:
+
+| Interaction | What it needs |
+|---|---|
+| Dispersion | Nothing: present between all atoms and molecules |
+| Dipole--dipole | Both molecules have a net dipole |
+| Dipole--induced dipole | At least one molecule has a net dipole |
+| Hydrogen bonding | An H bonded to N, O or F on one molecule, and a lone pair on N, O or F on another |
+
+**Dispersion** is always there. The electron cloud of any molecule fluctuates, and at any instant it has a small, temporary dipole. That temporary dipole distorts the electron cloud of a neighbour, and the two fluctuations become correlated in a way that leads to attraction. Even helium atoms attract each other like this, which is why helium can be liquefied at all.
+
+**Dipole--induced dipole** interactions are easy to forget. A molecule with a permanent dipole produces an electric field, and that field distorts the electron cloud of any neighbour, polar or not, inducing an extra dipole in it. This happens between two polar molecules too: each molecule's permanent dipole induces an additional dipole in the other, on top of the permanent one. So two polar molecules attract each other in three ways, not two.
+
+**Hydrogen bonding** needs both a donor (an H attached to N, O or F) and an acceptor (a lone pair on N, O or F). Acetone, $\ce{(CH3)2CO}$, has an acceptor (the carbonyl oxygen) but no donor, so acetone molecules cannot hydrogen bond to each other, even though acetone is strongly polar.
+
+::: {.keypoint}
+Dispersion is always present. If a molecule has a net dipole, it has dipole--dipole *and* dipole--induced dipole interactions. Hydrogen bonding needs a donor and an acceptor.
+:::
+
+### Then ask: how big?
+
+Knowing which interactions are present does not yet tell you which one matters most. For that, you need to think about size.
+
+Dispersion grows with **polarisability**: how easily the electron cloud can be distorted. Bigger molecules have bigger electron clouds, with outer electrons held further from the nuclei, and these are more easily pushed around. The number of electrons is a useful rough guide, since more electrons usually means a bigger, more polarisable molecule. It is only a guide, though: what really matters is how loosely the outer electrons are held.
+
+The noble gases show this cleanly, because dispersion is the *only* interaction they have. Their boiling points rise steadily with size: He (−269 °C), Ne (−246 °C), Ar (−186 °C), Kr (−153 °C), Xe (−108 °C).
+
+Shape matters too. Pentane (boiling point 36 °C) and 2,2-dimethylpropane (9.5 °C) have the same formula, $\ce{C5H12}$, and the same number of electrons. But pentane is a long chain that can lie alongside its neighbours, with lots of close contact, while 2,2-dimethylpropane is a compact ball that can only touch its neighbours at a few points. More contact means more dispersion.
+
+So which contribution is usually the biggest? For most molecules, *including most polar ones*, it is dispersion. Look at the hydrogen halides:
+
+|  | Dipole moment / D | Boiling point / °C |
+|---|---|---|
+| $\ce{HCl}$ | 1.08 | −85 |
+| $\ce{HBr}$ | 0.82 | −67 |
+| $\ce{HI}$ | 0.44 | −35 |
+
+If dipole--dipole interactions were the main attraction, $\ce{HCl}$ would boil highest. It boils lowest. Going down the group the molecules get bigger and more polarisable, and dispersion grows faster than the dipole shrinks.
+
+Two more comparisons make the same point. $\ce{CO}$ and $\ce{N2}$ have the same number of electrons and very similar polarisabilities, but $\ce{CO}$ is polar and $\ce{N2}$ is not. Their boiling points are −191.5 °C and −195.8 °C: the dipole is there, but it adds almost nothing. And non-polar $\ce{CCl4}$ (77 °C) boils about 100 °C *higher* than polar $\ce{CH3Cl}$ (−24 °C), because it is a much bigger molecule.
+
+You may have met dispersion forces at A-level as *London forces*; they are the same thing. You may also have met a ranking along the lines of "London forces < dipole--dipole < hydrogen bonding". That ranking captures something real: compare two molecules of *similar size*, and the one with a dipole, or with hydrogen bonding, will usually boil higher. But it is easy to read it as saying that dispersion is always the smallest contribution, and that is not true.
+
+::: {.keypoint}
+For most molecules, dispersion is the largest contribution to the attraction, even when the molecule is polar. Dipoles and hydrogen bonds make a visible difference mainly when you compare molecules of similar size.
+:::
+
+### When do dipoles decide?
+
+So when *do* dipoles and hydrogen bonds show up? Most clearly when dispersion is held roughly constant: when you compare molecules of similar size and shape. Consider three molecules with almost the same molar mass:
+
+|  | $M$ / g mol^−1^ | $\alpha$ / $10^{-24}$ cm^3^ | $\mu$ / D | Boiling point / °C |
+|---|---|---|---|---|
+| Butane, $\ce{CH3CH2CH2CH3}$ | 58 | 8.2 | 0 | −1 |
+| Acetone, $\ce{(CH3)2CO}$ | 58 | 6.4 | 2.9 | 56 |
+| Propan-1-ol, $\ce{CH3CH2CH2OH}$ | 60 | 6.7 | 1.6 | 97 |
+
+Before explaining the trend, check what each column is doing. The polarisability, if anything, goes *down* from butane to the other two, so dispersion cannot be what pushes the boiling point up. Acetone's large dipole lifts it well above butane. Propan-1-ol has a *smaller* dipole than acetone, yet boils higher still, because its $\ce{O-H}$ group lets it hydrogen bond, which acetone cannot do.
+
+This is a useful habit whenever you are given a table of molecular properties: look at how each property varies before reaching for an explanation. If the polarisability barely changes, dispersion is not the story, and the differences must come from something else.
+
+### A note on SO~3~: when the categories blur
+
+The two-question approach works well for most molecules, but the categories are not always clean. Sulfur trioxide is a good example.
+
+$\ce{SO3}$ is trigonal planar, so it has no net dipole, yet it boils at 45 °C, well above polar $\ce{SO2}$ (−10 °C). Part of the reason is size: $\ce{SO3}$ has more electrons, and so stronger dispersion. But there is more going on. The sulfur in $\ce{SO3}$ is very electron-poor: it is bonded to three electronegative oxygens and has no lone pair of its own. Because the molecule is flat, that sulfur is exposed above and below the plane. A lone pair on an oxygen of a neighbouring molecule can approach face-on and bond to it, forming an $\ce{S-O-S}$ bridge. Three molecules can link up like this into a ring, $\ce{S3O9}$, and liquid $\ce{SO3}$ is a mixture of single molecules and these rings.
+
+So boiling $\ce{SO3}$ involves more than overcoming dispersion between separate molecules: some of what holds the liquid together is closer to weak covalent bonding. The categories of intermolecular interaction are a very useful way to organise your thinking, but molecules do not always stay as the separate units we draw. When a substance behaves unexpectedly, it is worth asking whether the liquid is really made of the molecule you drew.
+
+## Kinetic theory: what temperature and pressure mean
+
+### Temperature and kinetic energy
+
+In a gas, molecules fly around freely, colliding with each other and with the walls. Kinetic theory tells us that the average translational kinetic energy per molecule is
+
+$$\langle E_\mathrm{k} \rangle = \tfrac{3}{2} k_\mathrm{B} T$$
+
+Notice what is *not* in this equation: anything about the molecule. A light $\ce{H2}$ molecule and a heavy $\ce{CO2}$ molecule at the same temperature have the same average kinetic energy.
+
+Why should that be? Think about what happens in a mixture of gases. Molecules collide constantly, and each collision passes energy from one molecule to another. A fast, light molecule and a slow, heavy one keep exchanging energy until, on average, neither kind is gaining at the other's expense. At that point their average kinetic energies are equal. That shared average is exactly what temperature measures: two things are at the same temperature when, in contact, there is no net flow of energy between them. For a gas, $\tfrac{3}{2}k_\mathrm{B}T$ tells you how big that average is.
+
+Since $\langle E_\mathrm{k} \rangle = \tfrac{1}{2}m\langle v^2 \rangle$, equal kinetic energies mean that heavier molecules must move more slowly. The root mean square speed is
+
+$$v_\mathrm{rms} = \sqrt{\langle v^2 \rangle} = \sqrt{\frac{3k_\mathrm{B}T}{m}} = \sqrt{\frac{3RT}{M}}$$
+
+This depends only on temperature and molar mass. It does not depend on pressure: squeezing a gas at constant temperature makes its molecules collide more often, but it does not make them move any faster.
+
+::: {.keypoint}
+In $v_\mathrm{rms} = \sqrt{3RT/M}$, the molar mass must be in kg mol^−1^, because a joule is a kg m^2^ s^−2^. A quick sense check helps: $\ce{N2}$ at 25 °C has $v_\mathrm{rms} \approx 515~\text{m s}^{-1}$, similar to the speed of sound in air. If you get a few metres per second, or tens of thousands, check your units.
+:::
+
+### What is pressure?
+
+Pressure is the push of molecules hitting the walls of their container. Each collision transfers momentum to the wall, and the pressure is the momentum delivered per unit area per unit time.
+
+Think about how this depends on the molecules. A molecule moving at speed $v$ carries momentum proportional to $mv$, so it hits harder the faster and heavier it is. It also hits the walls more often the faster it moves, at a rate proportional to $v$. Put these together and the pressure goes as $mv^2$, which is kinetic energy. Working through the geometry carefully (and averaging over all three directions) gives
+
+$$p = \frac{1}{3}\frac{N}{V} m\langle v^2 \rangle = \frac{2}{3}\times\frac{\text{total translational kinetic energy}}{V}$$
+
+So pressure *is* kinetic energy per unit volume, up to a factor of $\tfrac{2}{3}$. The units already say so: $1~\text{Pa} = 1~\text{N m}^{-2} = 1~\text{J m}^{-3}$.
+
+Rearranging gives a neat result: the total translational kinetic energy of a gas is $\tfrac{3}{2}pV$. For example, the air in a 1 L flask at 1 atm has
+
+$$E_\mathrm{k,total} = \tfrac{3}{2} \times 101325~\text{Pa} \times 1.0\times10^{-3}~\text{m}^3 \approx 150~\text{J}$$
+
+of translational kinetic energy, and you can work this out without counting a single molecule.
+
+This picture also explains **Dalton's law** of partial pressures. A heavy, slow molecule hits the wall less often but harder; a light, fast molecule hits more often but more gently. Because both carry the same average kinetic energy, these effects balance exactly, and every molecule contributes equally to the pressure, whatever its mass. So each gas in a mixture contributes to the pressure in proportion to how many molecules of it there are: its partial pressure is its mole fraction times the total pressure.
+
+::: {.keypoint}
+Pressure is two-thirds of the translational kinetic energy per unit volume. At a fixed temperature every molecule pushes on the walls equally hard on average, so pressure effectively counts molecules per unit volume.
+:::
+
+### Why can we usually ignore interactions in a gas?
+
+The same intermolecular interactions are present in a gas as in a liquid. So why does the ideal gas law, which ignores them, work so well?
+
+At 1 atm and room temperature, gas molecules are on average about 3 nm apart, roughly ten times their own size. Dispersion interactions fall off very steeply with distance, as $r^{-6}$, so ten times further away means about a million times weaker. The interactions are still there; they are just too weak at these distances to matter much. They become important when a gas is compressed or cooled, bringing the molecules closer together, which is exactly when gases condense.
+
+## Phase changes and cooling curves
+
+### Why does the temperature stop falling?
+
+If you let a pure liquid cool and record its temperature over time, the temperature falls steadily at first. Then, at the freezing point, it stops falling and stays constant for a while, even though the substance is still losing energy to its surroundings. Only once all the liquid has solidified does the temperature start to fall again.
+
+On that plateau the temperature is constant, so the average kinetic energy of the molecules is constant too. So where is the energy that flows out to the surroundings coming from? From the intermolecular interactions. As molecules lock into place in the solid, they settle into lower-energy positions alongside their neighbours, and the energy released is the **latent heat of fusion**. That released energy is what flows out to the surroundings while the temperature holds steady.
+
+It is worth being careful about the direction here. Freezing *releases* energy, because interactions are forming. Melting absorbs exactly the same amount, because those interactions have to be broken.
+
+::: {.keypoint}
+On a plateau, energy is still flowing, but it is changing the energy of the intermolecular interactions rather than the kinetic energy of the molecules. Freezing releases latent heat; melting absorbs it.
+:::
+
+### Supercooling
+
+Sometimes a liquid cools below its freezing point without solidifying. Crystals need somewhere to start growing: a **nucleation site**, such as a speck of dust, a scratch on the container, or a seed crystal. A very pure liquid in a very clean container may have none, so it stays liquid below its freezing point. Once a crystal does start, it grows quickly, releasing latent heat, and the temperature rises back up to the freezing point. On a cooling curve, supercooling shows up as a small dip below the plateau temperature just before the plateau begins.
+
+## Mixtures and Raoult's law
+
+### What does vapour pressure measure?
+
+Every liquid is in equilibrium with its vapour: molecules escape from the surface, and molecules in the vapour return. The **vapour pressure** is the pressure of the vapour once this equilibrium is reached.
+
+What does that number tell you physically? Rearrange the ideal gas law, $pV = nRT$, to give
+
+$$p = \frac{n}{V}\,RT$$
+
+At a fixed temperature, then, the vapour pressure is proportional to $n/V$: the number of moles (and so the number of molecules) per unit volume in the vapour. It measures how *concentrated* the vapour is.
+
+Notice that this is a concentration, not an amount. A bigger container holds more vapour, but not at a higher pressure: more molecules evaporate to fill the extra space, until the concentration is back where it was. Vapour pressure is an **intensive** property. It depends on the liquid and the temperature, not on how much liquid there is or how big the container is (as long as some liquid remains).
+
+### Raoult's law as a balance
+
+Now mix two liquids, A and B, and think about the A molecules. At equilibrium, A molecules leave the liquid at the same rate as they return.
+
+- **Leaving:** only molecules at the surface can escape. If an A molecule's chance of escaping is the same as it would be in pure A, the rate of escape is simply proportional to how much of the liquid is A, its mole fraction $x_\mathrm{A}$.
+- **Returning:** the rate at which A molecules hit the surface and rejoin the liquid is proportional to how many there are in the vapour, which goes as $p_\mathrm{A}$.
+
+Balancing the two gives $p_\mathrm{A} \propto x_\mathrm{A}$. For pure A ($x_\mathrm{A} = 1$) the vapour pressure must be $p^\circ_\mathrm{A}$, which fixes the constant:
+
+$$p_\mathrm{A} = x_\mathrm{A}\,p^\circ_\mathrm{A}$$
+
+This is **Raoult's law**. The total vapour pressure is the sum of the two contributions, $p = x_\mathrm{A}\,p^\circ_\mathrm{A} + x_\mathrm{B}\,p^\circ_\mathrm{B}$, which is a straight line between $p^\circ_\mathrm{B}$ and $p^\circ_\mathrm{A}$ on a plot of pressure against composition.
+
+The key assumption was that an A molecule's chance of escaping does not depend on whether its neighbours are A or B. That is what makes a mixture **ideal**: the A--B interactions are the same as the A--A and B--B ones, so the molecules effectively cannot tell each other apart. Mixtures of very similar molecules, such as benzene and toluene, come close to this.
+
+::: {.keypoint}
+Raoult's law says that each component's vapour is diluted in proportion to its share of the liquid. It holds when the molecules cannot tell each other apart.
+:::
+
+### Deviations from ideality
+
+In a real mixture, we write
+
+$$p_\mathrm{A} = \gamma_\mathrm{A}\,x_\mathrm{A}\,p^\circ_\mathrm{A}$$
+
+where $\gamma_\mathrm{A}$ is the **activity coefficient** of A. What does it mean physically?
+
+- **$\gamma_\mathrm{A} < 1$ (negative deviation):** the vapour pressure is lower than ideal, so A molecules are being held in the liquid more strongly than in pure A. The A--B attractions are stronger than the A--A and B--B ones. Acetone and chloroform are a good example. Neither pure liquid has significant hydrogen bonding, but in the mixture the $\ce{C-H}$ of chloroform can hydrogen bond to the oxygen of acetone, so mixing creates new attractions.
+- **$\gamma_\mathrm{A} > 1$ (positive deviation):** the vapour pressure is higher than ideal, because the A--B attractions are weaker. Mixing ethanol with hexane is an example: hexane molecules get in between the ethanol molecules and break up ethanol's hydrogen-bonded network, so ethanol escapes more easily.
+
+::: {.keypoint}
+Each component of a mixture has its own activity coefficient. If you only know the total vapour pressure, the ratio $p_\text{real}/p_\text{ideal}$ tells you the overall direction and size of the deviation (an average over both components), but not the activity coefficient of either one separately.
+:::
+
+## Summary
+
+- Split questions about intermolecular interactions in two. **Which interactions are possible** depends on the 3D shape and composition. **How big each one is** depends on size and polarisability.
+- **Polar bonds do not guarantee a polar molecule**: symmetry can make the bond dipoles cancel. Draw the shape in 3D first.
+- **Dispersion** is always present and is usually the largest contribution, even for polar molecules. A net dipole brings **dipole--dipole and dipole--induced dipole** interactions; hydrogen bonding needs a donor and an acceptor.
+- Dipoles and hydrogen bonds decide the order mainly when molecules are of **similar size**.
+- $\langle E_\mathrm{k} \rangle = \tfrac{3}{2}k_\mathrm{B}T$ for every molecule, whatever its mass, so heavier molecules move more slowly. $v_\mathrm{rms}$ depends on $T$ and $M$, not on pressure.
+- **Pressure is kinetic energy per unit volume** (times $\tfrac{2}{3}$): the total translational kinetic energy of a gas is $\tfrac{3}{2}pV$.
+- On a **cooling curve plateau**, the kinetic energy is constant while latent heat is released as intermolecular interactions form.
+- **Vapour pressure** measures the concentration of molecules in the vapour. **Raoult's law** follows from balancing escape and return; deviations ($\gamma \neq 1$) tell you whether the mixed interactions are stronger or weaker than in the pure liquids.
