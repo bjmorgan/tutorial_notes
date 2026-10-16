@@ -6,6 +6,7 @@ language:
 rmd_files:
   - "index.Rmd"
   - "01-states-of-matter.Rmd"
+  - "02-thermodynamics-i.Rmd"
   - "03-ions-and-solutions.Rmd"
   - "04-spectroscopy.Rmd"
   - "05-kinetics.Rmd"
