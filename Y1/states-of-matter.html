@@ -108,8 +108,9 @@ MathJax.Hub.Config({
 <li class="chapter" data-level="1.4" data-path="states-of-matter.html"><a href="states-of-matter.html#mixtures-and-raoults-law"><i class="fa fa-check"></i><b>1.4</b> Mixtures and Raoult’s law</a>
 <ul>
 <li class="chapter" data-level="1.4.1" data-path="states-of-matter.html"><a href="states-of-matter.html#what-does-vapour-pressure-measure"><i class="fa fa-check"></i><b>1.4.1</b> What does vapour pressure measure?</a></li>
-<li class="chapter" data-level="1.4.2" data-path="states-of-matter.html"><a href="states-of-matter.html#raoults-law-as-a-balance"><i class="fa fa-check"></i><b>1.4.2</b> Raoult’s law as a balance</a></li>
-<li class="chapter" data-level="1.4.3" data-path="states-of-matter.html"><a href="states-of-matter.html#deviations-from-ideality"><i class="fa fa-check"></i><b>1.4.3</b> Deviations from ideality</a></li>
+<li class="chapter" data-level="1.4.2" data-path="states-of-matter.html"><a href="states-of-matter.html#what-does-saturated-mean"><i class="fa fa-check"></i><b>1.4.2</b> What does “saturated” mean?</a></li>
+<li class="chapter" data-level="1.4.3" data-path="states-of-matter.html"><a href="states-of-matter.html#raoults-law-as-a-balance"><i class="fa fa-check"></i><b>1.4.3</b> Raoult’s law as a balance</a></li>
+<li class="chapter" data-level="1.4.4" data-path="states-of-matter.html"><a href="states-of-matter.html#deviations-from-ideality"><i class="fa fa-check"></i><b>1.4.4</b> Deviations from ideality</a></li>
 </ul></li>
 <li class="chapter" data-level="1.5" data-path="states-of-matter.html"><a href="states-of-matter.html#summary"><i class="fa fa-check"></i><b>1.5</b> Summary</a></li>
 </ul></li>
@@ -445,8 +446,22 @@ MathJax.Hub.Config({
 <p>At a fixed temperature, then, the vapour pressure is proportional to <span class="math inline">\(n/V\)</span>: the number of moles (and so the number of molecules) per unit volume in the vapour. It measures how <em>concentrated</em> the vapour is.</p>
 <p>Notice that this is a concentration, not an amount. A bigger container holds more vapour, but not at a higher pressure: more molecules evaporate to fill the extra space, until the concentration is back where it was. Vapour pressure is an <strong>intensive</strong> property. It depends on the liquid and the temperature, not on how much liquid there is or how big the container is (as long as some liquid remains).</p>
 </div>
-<div id="raoults-law-as-a-balance" class="section level3 hasAnchor" number="1.4.2">
-<h3><span class="header-section-number">1.4.2</span> Raoult’s law as a balance<a href="states-of-matter.html#raoults-law-as-a-balance" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<div id="what-does-saturated-mean" class="section level3 hasAnchor" number="1.4.2">
+<h3><span class="header-section-number">1.4.2</span> What does “saturated” mean?<a href="states-of-matter.html#what-does-saturated-mean" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>Questions sometimes refer to the <em>saturated</em> vapour pressure. This is the same quantity we have been calling the vapour pressure: the pressure of the vapour when it is in equilibrium with the liquid. The word “saturated” makes that condition explicit. At this pressure the vapour holds as much of the substance as it can at that temperature, and adding any more would just make some of it condense.</p>
+<p>Why would a question bother to say so? Because the vapour of a substance is not always in equilibrium with its liquid. The partial pressure of a substance actually present in a gas can be:</p>
+<ul>
+<li><strong>Below</strong> the saturated vapour pressure (<strong>unsaturated</strong>). If there is liquid present, more evaporates until the pressure rises to the saturated value. Relative humidity is exactly this ratio for water: air at 50% relative humidity contains water vapour at half its saturated vapour pressure, which is why wet clothes dry.</li>
+<li><strong>Above</strong> the saturated vapour pressure (<strong>supersaturated</strong>). This is not an equilibrium state, but it can persist if there is nowhere for droplets to start forming, much like a supercooled liquid. Clouds form when supersaturated water vapour condenses onto tiny particles of dust or salt, which act as nucleation sites.</li>
+</ul>
+<p>This also explains the “as long as some liquid remains” caveat above. Once all the liquid has evaporated, there is nothing left to top up the vapour. Expand the container further and the vapour becomes unsaturated, with its pressure falling below the saturated value.</p>
+<p>In Raoult’s law, every pressure is an equilibrium value: <span class="math inline">\(p^\circ_\mathrm{A}\)</span> is the saturated vapour pressure of pure A, and <span class="math inline">\(p_\mathrm{A}\)</span> is the equilibrium partial pressure of A above the mixture.</p>
+<div class="keypoint">
+<p>Qualifiers such as “saturated”, “standard” or “isothermal” tell you about a condition that holds in the problem. When a question includes one, it is worth pausing to ask what it rules in or out. “Saturated” means the vapour is in equilibrium with the liquid.</p>
+</div>
+</div>
+<div id="raoults-law-as-a-balance" class="section level3 hasAnchor" number="1.4.3">
+<h3><span class="header-section-number">1.4.3</span> Raoult’s law as a balance<a href="states-of-matter.html#raoults-law-as-a-balance" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>Now mix two liquids, A and B, and think about the A molecules. At equilibrium, A molecules leave the liquid at the same rate as they return.</p>
 <ul>
 <li><strong>Leaving:</strong> only molecules at the surface can escape. If an A molecule’s chance of escaping is the same as it would be in pure A, the rate of escape is simply proportional to how much of the liquid is A, its mole fraction <span class="math inline">\(x_\mathrm{A}\)</span>.</li>
@@ -460,8 +475,8 @@ MathJax.Hub.Config({
 <p>Raoult’s law says that each component’s vapour is diluted in proportion to its share of the liquid. It holds when the molecules cannot tell each other apart.</p>
 </div>
 </div>
-<div id="deviations-from-ideality" class="section level3 hasAnchor" number="1.4.3">
-<h3><span class="header-section-number">1.4.3</span> Deviations from ideality<a href="states-of-matter.html#deviations-from-ideality" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<div id="deviations-from-ideality" class="section level3 hasAnchor" number="1.4.4">
+<h3><span class="header-section-number">1.4.4</span> Deviations from ideality<a href="states-of-matter.html#deviations-from-ideality" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>In a real mixture, we write</p>
 <p><span class="math display">\[p_\mathrm{A} = \gamma_\mathrm{A}\,x_\mathrm{A}\,p^\circ_\mathrm{A}\]</span></p>
 <p>where <span class="math inline">\(\gamma_\mathrm{A}\)</span> is the <strong>activity coefficient</strong> of A. What does it mean physically?</p>
