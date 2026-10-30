@@ -21,7 +21,9 @@ cd Y1 && Rscript -e 'bookdown::render_book("index.Rmd", "bookdown::gitbook")'
 cd Y2 && Rscript -e 'bookdown::render_book("index.Rmd", "bookdown::gitbook")'
 ```
 
-Each year builds to its own `_site/` directory (gitignored). A GitHub Action builds both on commit and deploys to GitHub Pages at `.../Y1/` and `.../Y2/`.
+Each year builds to its own `_site/` directory (gitignored). A GitHub Action builds both on commit and deploys to GitHub Pages at https://bjmorgan.github.io/tutorial_notes/Y1/ and https://bjmorgan.github.io/tutorial_notes/Y2/, with `landing/index.html` as the site's front page linking to both.
+
+The repo was renamed from `Y1_tutorial_notes` to `tutorial_notes` in October 2026. A separate repo, `bjmorgan/Y1_tutorial_notes`, exists only to forward old links: its `404.html` redirects any old address to the same path on the new site. It needs no updates.
 
 ## Project structure
 
@@ -35,6 +37,7 @@ TutorialNotes/
   preamble.tex                # Shared LaTeX preamble for PDF output
   .claude/                    # Claude Code skills
   .github/workflows/          # GitHub Actions (builds both sites)
+  landing/index.html          # Front page of the deployed site (links to Y1 and Y2)
   Y1/
     index.Rmd                 # Front matter and "About" page
     _bookdown.yml             # Chapter ordering and build config

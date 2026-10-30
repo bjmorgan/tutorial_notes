@@ -1,5 +1,8 @@
-# CH12002 Tutorial Notes
+# Physical Chemistry Tutorial Notes
 
-Tutorial notes for Y1 Physical Chemistry at the University of Bath.
+Tutorial notes for Physical Chemistry at the University of Bath.
 
-https://bjmorgan.github.io/Y1_tutorial_notes/
+- **Y1 Physical Chemistry (CH12002):** https://bjmorgan.github.io/tutorial_notes/Y1/
+- **Y2 Physical Chemistry (CH22008):** https://bjmorgan.github.io/tutorial_notes/Y2/
+
+https://bjmorgan.github.io/tutorial_notes/

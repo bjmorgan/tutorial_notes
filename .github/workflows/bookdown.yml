@@ -42,7 +42,7 @@ jobs:
           mkdir -p _deploy/Y1 _deploy/Y2
           cp -r Y1/_site/* _deploy/Y1/
           cp -r Y2/_site/* _deploy/Y2/
-          echo '<html><head><meta http-equiv="refresh" content="0;url=Y1/"></head></html>' > _deploy/index.html
+          cp landing/index.html _deploy/index.html
 
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@v4.6.8
