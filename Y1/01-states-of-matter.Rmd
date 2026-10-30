@@ -178,6 +178,23 @@ At a fixed temperature, then, the vapour pressure is proportional to $n/V$: the 
 
 Notice that this is a concentration, not an amount. A bigger container holds more vapour, but not at a higher pressure: more molecules evaporate to fill the extra space, until the concentration is back where it was. Vapour pressure is an **intensive** property. It depends on the liquid and the temperature, not on how much liquid there is or how big the container is (as long as some liquid remains).
 
+### What does "saturated" mean?
+
+Questions sometimes refer to the *saturated* vapour pressure. This is the same quantity we have been calling the vapour pressure: the pressure of the vapour when it is in equilibrium with the liquid. The word "saturated" makes that condition explicit. At this pressure the vapour holds as much of the substance as it can at that temperature, and adding any more would just make some of it condense.
+
+Why would a question bother to say so? Because the vapour of a substance is not always in equilibrium with its liquid. The partial pressure of a substance actually present in a gas can be:
+
+- **Below** the saturated vapour pressure (**unsaturated**). If there is liquid present, more evaporates until the pressure rises to the saturated value. Relative humidity is exactly this ratio for water: air at 50% relative humidity contains water vapour at half its saturated vapour pressure, which is why wet clothes dry.
+- **Above** the saturated vapour pressure (**supersaturated**). This is not an equilibrium state, but it can persist if there is nowhere for droplets to start forming, much like a supercooled liquid. Clouds form when supersaturated water vapour condenses onto tiny particles of dust or salt, which act as nucleation sites.
+
+This also explains the "as long as some liquid remains" caveat above. Once all the liquid has evaporated, there is nothing left to top up the vapour. Expand the container further and the vapour becomes unsaturated, with its pressure falling below the saturated value.
+
+In Raoult's law, every pressure is an equilibrium value: $p^\circ_\mathrm{A}$ is the saturated vapour pressure of pure A, and $p_\mathrm{A}$ is the equilibrium partial pressure of A above the mixture.
+
+::: {.keypoint}
+Qualifiers such as "saturated", "standard" or "isothermal" tell you about a condition that holds in the problem. When a question includes one, it is worth pausing to ask what it rules in or out. "Saturated" means the vapour is in equilibrium with the liquid.
+:::
+
 ### Raoult's law as a balance
 
 Now mix two liquids, A and B, and think about the A molecules. At equilibrium, A molecules leave the liquid at the same rate as they return.
